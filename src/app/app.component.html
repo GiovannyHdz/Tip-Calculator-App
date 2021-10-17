@@ -1,1 +1,52 @@
-<h1 class="text-center text-4xl text-white-cyan bg-strong-cyan">SPLITTER</h1>
+<div class="flex flex-col flex-auto min-w-0 bg-light-grayish-cyan h-screen">
+  <div class="flex flex-col justify-center lg:mt-28 xs:mt-8">
+    <p class="text-2xl font-medium text-very-dark-cyan text-center tracking-widest-2">SPLI</p>
+    <p class="text-2xl font-medium text-very-dark-cyan text-center tracking-widest-2">TTER</p>
+  </div>
+
+  <div class="flex flex-wrap bg-white-cyan text-dark-grayish-cyan font-semibold mx-auto px-8 py-10 w-full xs:mt-8 xs:rounded-t-3xl lg:max-w-4xl lg:space-x-8 lg:rounded-3xl">
+
+    <div class="flex flex-col flex-auto">
+      <label class="mb-2" for="bill">Bill</label>
+      <input type="text" placeholder="$" id="bill" class="text-very-dark-cyan font-semibold bg-gray-100 border-none px-4 py-2 text-right text-xl rounded-sm focus:ring-strong-cyan focus:ring-2">
+  
+      <div class="flex flex-col xs:mt-9 space-y-4">
+        <span>Select Tip %</span>
+        <div class="grid grid-cols-2 gap-4">
+          <div class="text-xl text-center text-white-cyan bg-very-dark-cyan py-2 rounded-md">5%</div>
+          <div class="text-xl text-center text-white-cyan bg-very-dark-cyan py-2 rounded-md">10%</div>
+          <div class="text-xl text-center text-white-cyan bg-very-dark-cyan py-2 rounded-md">15%</div>
+          <div class="text-xl text-center text-white-cyan bg-very-dark-cyan py-2 rounded-md">25%</div>
+          <div class="text-xl text-center text-white-cyan bg-very-dark-cyan py-2 rounded-md">50%</div>
+          <div class="text-xl text-center text-very-dark-cyan bg-gray-100 py-2 rounded-md">Custom</div>
+        </div>
+      </div>
+      
+      <label class="mb-2 xs:mt-9" for="numPeople">Number of people</label>
+      <input type="text" placeholder="5" id="numPeople" class="bg-gray-100 text-very-dark-cyan font-semibold border-none px-4 py-2 text-right text-xl rounded-sm focus:ring-strong-cyan focus:ring-2">
+    </div>
+
+    <div class="flex flex-col flex-auto space-y-8 bg-very-dark-cyan rounded-2xl pt-8 pb-4 px-4 mt-0 xs:mt-9">
+      <div class="grid grid-cols-2">
+        <div class="flex flex-col"> 
+          <p class="text-white-cyan">Tip Amount</p>
+          <p class="text-sm text-dark-grayish-cyan-2">/ person</p>
+        </div>
+        <p class="text-4xl text-strong-cyan font-bold justify-self-end">$4.27</p>
+      </div>
+      <div class="grid grid-cols-2">
+        <div class="flex flex-col"> 
+          <p class="text-white-cyan">Total</p>
+          <p class="text-sm text-dark-grayish-cyan-2">/ person</p>
+        </div>
+        <p class="text-4xl text-strong-cyan font-bold justify-self-end">$32.79</p>
+      </div>
+
+      <button class="text-xl font-semibold bg-strong-cyan text-very-dark-cyan py-2 rounded-md cursor">RESET</button>
+
+    </div>
+
+  </div>
+
+  
+</div>
