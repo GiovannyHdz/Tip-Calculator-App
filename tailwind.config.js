@@ -31,7 +31,11 @@ module.exports = {
       },
     },
     variants: {
-      extend: {},
+      extend: {
+        cursor: ['hover', 'focus'],
+        ringColor: ['hover', 'focus'],
+        ringWidth: ['hover', 'focus']
+      },
     },
     plugins: [require('@tailwindcss/forms'),require('@tailwindcss/typography')],
 };
